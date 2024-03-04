@@ -1,0 +1,17 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+'Defaults UM and PL for Quick Quotes
+'tied to Hooks 10260, 10981
+
+V.Passed.000006.Set("EA")
+V.Passed.000013.Set("S")
+
+Program.Sub.Main.End
+
+
